@@ -1,0 +1,196 @@
+.navbar{
+    background-color: #4582ec;
+    height: 50px;
+    padding: 5px;
+    margin: auto;
+    /* border-radius: 20px; for curve */
+    
+}
+
+ 
+.navbar a{
+    padding: 00 12px;
+    color:white;
+    font-size:25px;
+    text-decoration:none;/*to remove line under github*/
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.container{
+    color:red;
+    font-size:20px;
+
+
+}
+
+.navbar  p{
+   margin: 5px;;
+
+}
+
+.card {
+    display:flex;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    flex-direction:column; /*flex items  are displayed vertically,as a column*/
+    border: 1px solid rgb(235, 235, 221);
+   /* justify-content:center;/*for content in center*/
+    margin-top:10px;
+    text-align:center;
+    padding: 0px 20px 20px 20px;
+    width: fit-content; 
+    width:50%;
+    height:20%;
+    margin: auto;   /* for box in center*/       
+}
+.card p{
+    color: rgb(138, 138, 134);
+}
+.card input{
+    border:1px solid lightskyblue;
+    border-radius:10px;/* for rounderd corners*/
+    padding:10px; 
+}
+.card input:focus{
+    box-shadow: 0 0 0 0.25rem lightblue;    
+    outline-width: 0;
+
+}
+.footer {
+    margin:10px;
+    border:1px solid rgb(240, 230, 230);
+    text-align:center;
+
+
+}
+.alert{
+    display:flex;
+        color: #fff;
+        font-size: 0.9625rem;   
+}
+
+.alert p {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.alert-danger {
+    background-color: #d9534f;
+  }
+.contain {
+    display:flex;
+    border:2px solid rgb(204, 204, 191);
+    height:60px;
+    width:100%;
+    margin:5px;
+    align-items: center;
+}
+.row{
+    display:flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-left:50px;
+
+    align-items: center;
+}
+.col{
+    display:flex;
+    margin-right: 100px;
+    justify-content: space-between;
+    width:300px;
+    
+}
+  .badge{
+        color: white;
+        width: 150px;
+        text-align: center;
+        padding:4px;
+        border-radius:10px;   
+        margin: 10px 5px 0px 0px;
+        height:25px;
+        font-size: 20px;
+}
+.content{
+    display:flex;
+    border:2px solid  rgb(204, 204, 191);
+    height:400px;
+    width: 100%;
+    flex-direction:row;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.profile-1{
+    display:flex;
+    /* border:2px solid rgb(240, 230, 230); */
+    align-items: center;
+    width:25%;
+    flex-direction: column;
+    padding: 10px;
+
+
+}
+.profile-2{
+    display:flex;
+    /* border:2px solid rgb(204, 204, 191); */
+    width: 75% ;
+    flex-direction:column ;
+
+}
+.box-1{
+    display:flex;
+    /* border:2px solid rgb(204, 204, 191); */
+    height:30%;
+    width:100%;
+    flex-direction: row;
+    padding:15px;
+
+}
+.box-2{
+    display:flex;
+    /* border:2px solid rgb(204, 204, 191); */
+    height:70%;
+    width:100%;
+    flex-direction:column;
+padding: 10px;
+
+}
+.img-fluid{
+    width:100%;
+    height:90%;
+}
+
+.badge-primary{
+background-color:#7da8f3;
+
+}
+.badge-secondary{
+    background-color:rgb(196, 92, 164);
+}
+.badge-success{
+    background-color:rgb(143, 130, 17);
+
+}
+.badge-info{
+    background-color:rgb(88, 123, 238);
+
+}
+
+
+.list-item {
+    border-bottom: 1px solid rgb(199, 198, 198);
+    display: inline-block;
+    vertical-align: middle;
+    height:15%;
+    line-height: 40px;
+    font-size: 20px;
+  }
+  
+
+
+
+
+
+  
+
+
+
+
+     
